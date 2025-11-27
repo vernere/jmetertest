@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'
-        JMETER_HOME = 'C:\\Tools\\apache-jmeter-5.6.3'
+        JAVA_HOME = 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.15.6-hotspot'
+        JMETER_HOME = 'C:\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3
         PATH = "${JAVA_HOME}\\bin;${JMETER_HOME}\\bin;${env.PATH}"
     }
 
