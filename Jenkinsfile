@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         JAVA_HOME = 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.15.6-hotspot'
-        JMETER_HOME = 'C:\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3
-        PATH = "${JAVA_HOME}\\bin;${JMETER_HOME}\\bin;${env.PATH}"
+        JMETER_HOME = 'C:\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3'
+        PATH = '${JAVA_HOME}\\bin;${JMETER_HOME}\\bin;${env.PATH}'
     }
 
     tools {
